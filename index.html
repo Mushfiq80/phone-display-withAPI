@@ -20,7 +20,7 @@
             <div class="mb-3 w-50 d-flex">
                 <input type="email" class="form-control" id="search-filed" placeholder="Search Your Phone">
                 <button id="btn-search" class="btn btn-primary">Search</button>
-              </div>
+            </div>
         </section>
         <section class="container">
             <div id="phone-container" class="row row-cols-1 row-cols-md-3 g-4">
@@ -29,16 +29,21 @@
             <div id="no-found-message" class="mt-4 d-none">
                 <h3 class="text-warning">No Phone Found. Search again Please</h3>
             </div>
-            <!-- loader  -->
-            <section id="loader" class="d-none">
-                <div style="height: 400px;" class="d-flex justify-content-center align-items-center text-success">
-                    <div class="spinner-border" role="status">
-                      <span class="visually-hidden">Loading...</span>
-                    </div>
-                  </div>
-            </section>
 
+            <div id="showAll" class="text-center d-none">
+                <div id="btn-show-all" class="btn btn-primary">Show All</div>
+            </div>
         </section>
+        <!-- loader  -->
+        <section id="loader" class="d-none">
+            <div style="height: 400px;" class="d-flex justify-content-center align-items-center text-success">
+                <div class="spinner-border" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+            </div>
+        </section>
+
+
     </main>
 
 
